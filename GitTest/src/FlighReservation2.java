@@ -9,7 +9,6 @@
 '-------------------------------------------------------------------------------
 '###############################################################################*/
 
-system.out
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -149,5 +148,7 @@ public class FlighReservation2 {
 	  workbook.close(); 
  	  driver.close();
 	}
+	
+	System.out.println("");
    
 }
